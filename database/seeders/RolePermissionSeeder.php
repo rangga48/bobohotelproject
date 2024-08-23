@@ -39,7 +39,7 @@ class RolePermissionSeeder extends Seeder
             'view hotel bookings',
         ];
 
-        $customerRole->syncPermission($customerPermissions);
+        $customerRole->syncPermissions($customerPermissions);
 
         $superAdminRole = Role::firstOrCreate([
             'name' => 'super_admin'
