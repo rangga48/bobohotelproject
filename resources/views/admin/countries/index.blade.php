@@ -49,7 +49,7 @@
                     <p>Belum ada data terbaru</p>
                 @endforelse
 
-
+                {{ $countries->links() }}
 
             </div>
         </div>
